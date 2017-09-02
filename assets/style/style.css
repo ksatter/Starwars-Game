@@ -1,0 +1,15 @@
+img {
+    height: 100px;
+
+}
+.card {
+    background: white;
+    border: 2px solid black;
+    font-size: 50%;
+}
+.card-title {
+    font-size: large;
+}
+.card-text {
+    font-class: large;
+}
