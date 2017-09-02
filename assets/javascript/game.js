@@ -1,6 +1,6 @@
 
 
-//createactive characters from list
+//createactive characters from list:
 
 var characterCreation = {
         //available options
