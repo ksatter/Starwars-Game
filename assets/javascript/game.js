@@ -105,7 +105,7 @@ var game = {
                     $("#defender-zone-text").show();
                     $("#main-text").text('Choose A Defender');
                 }
-                else if (!setDefender && defendersRemaining > 1){
+                else if (!setDefender && !setDefender && defendersRemaining > 1){
                     setDefender = true;
                     defender = $(this).data();
                     defendersRemaining--;
