@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f50a3b29-b95c-466b-b994-e5669bd8700f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/game.js" afterPath="$PROJECT_DIR$/assets/javascript/game.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +22,8 @@
           <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="107" column="57" lean-forward="false" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+                <state relative-caret-position="630">
+                  <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -218,7 +219,7 @@
       <workItem from="1504205921345" duration="2566000" />
       <workItem from="1504218131923" duration="945000" />
       <workItem from="1504274390107" duration="31790000" />
-      <workItem from="1504451481512" duration="39552000" />
+      <workItem from="1504451481512" duration="39723000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;continued work  on js&quot;">
       <created>1504330362685</created>
@@ -262,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504562040249</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Fixed multiple defender issue&quot;">
+      <created>1504562079690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504562079690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102876000" />
+    <option name="totallyTimeSpent" value="103047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -531,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="107" column="57" lean-forward="false" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+        <state relative-caret-position="630">
+          <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
           <folding />
         </state>
       </provider>

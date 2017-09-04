@@ -116,7 +116,7 @@ var game = {
                     $("#defender-zone-text").text('Defenders Waiting');
 
                 }
-                else{
+                else if (!setDefender){
                     setDefender = true;
                     defender = $(this).data();
                     defendersRemaining--;
