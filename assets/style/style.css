@@ -6,6 +6,9 @@ img {
 }
 button {
     margin-top: 20px;
+    width: 33%;
+    font-size: x-large;
+    display: none;
 }
 .card {
     background: white;

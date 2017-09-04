@@ -81,6 +81,7 @@ var game = {
             var defender = "";
             var defendersRemaining = 3;
 
+            $("#battlefield").show();
             $("#spacer-1").hide();
             $(".enemies").hide();
             $(".btn").hide();
@@ -181,8 +182,6 @@ var game = {
     };
 
 $(document).ready(function() {
-
-
 
     game.startGame();
 
