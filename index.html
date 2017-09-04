@@ -22,57 +22,77 @@
         <div class="row">
             <h3 class="display">Star Wars RPG Game </h3>
         </div>
-        <div class="row">
+        <div class="row-eq-height">
             <h4><span id="main-text"></span></h4>
         </div>
 
         <div class="jumbotron">
-            <div class="row" id="battlefield" style="text-align: center">
-                <div class="col-sm-3">
-                   <div class="card char1" id="char1-battlefield"></div>
+            <div class="row" id="battlefield">
+                <div class="col-xs-0 col-sm-2 spacer" id="spacer-1"></div>
+                <div class="col-xs-5 col-sm-3 character-card" id="char0">
+                    <div class="card">
+                        <img class="card-img-top" id="char0-img">
+                        <div class ="card-block">
+                            <h4 class="card-title" id="char0-title"></h4>
+                            <h6 class="card-title">Health: <span id="char0-health"></span><br>Power: <span id="char0-power" ></span></h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-1" id="vs" style="display: none;"><h1 class="display">-VS-</h1></div>
-                <div class="col-sm-3">
-                    <div class="card char2" id="char2-battlefield"></div>
+                <div class="col-xs-5 col-sm-3 character-card" id="char1">
+                    <div class="card">
+                        <img class="card-img-top" id="char1-img">
+                        <div class ="card-block">
+                            <h4 class="card-title" id="char1-title"></h4>
+                            <h6 class="card-title">Health: <span id="char1-health"></span><br>Power: <span id="char1-power" ></span></h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="card char3" id="char3-battlefield"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card char4" id="char4-batttlefield"></div>
-                </div>
-            </div>
-        </div>
 
+                <div class="col-xs-5 col-sm-3 character-card" id="char2">
+                    <div class="card">
+                        <img class="card-img-top" id="char2-img">
+                        <div class ="card-block">
+                            <h4 class="card-title" id="char2-title"></h4>
+                            <h6 class="card-title">Health: <span id="char2-health"></span><br>Power: <span id="char2-power" ></span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-sm-3 character-card" id="char3">
+                    <div class="card">
+                        <img class="card-img-top" id="char3-img">
+                        <div class ="card-block">
+                            <h4 class="card-title" id="char3-title"></h4>
+                            <h6 class="card-title">Health: <span id="char3-health"></span><br>Power: <span id="char3-power" ></span></h6>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
         <div class="row">
 
-            <h4><span id="battle-text"></span></h4>
+            <h4><span id="attacker-text"></span><br><span id="defender-text"></span></h4>
             <br>
         </div>
         <div class="row" >
-            <button type="button" class="btn btn-success  reset" style="width: 33%; font-size: x-large; display: none">You Win! <br> Hit me to play again.</button>
-            <button type="button" class="btn btn-danger  reset" style="width: 33%; font-size: x-large; display: none">You Lose! <br> Hit me to play again.! </button>
-            <button type="button" class="btn btn-primary  attack" style="width: 25%; display: none">Attack <span id="enemy">Enemy</span></button>
-        </div>
-        <br>
-        <div class="jumbotron" id="enemies">
-        <div class = "row" id = "enemy-characters" style="display: none;">
-            <div class="col-3">
-                <div class="card" id="enemy-1"></div>
+            <div class="col-xs-2" id="vs">
+                <br><br><img src="assets/images/light sabers.jpg" width="100%">
+                <h4>Attack!</h4>
             </div>
-            <div class="col-3">
-                <div class="card" id="enemy-2"></div>
+
+            <div class="col-sm-12" id="win-button">
+                <button type="button"  id="win" class="btn btn-success  reset" style="width: 33%; font-size: x-large;">You Win! <br> Play again?</button>
             </div>
-            <div class="col-3">
-                <div class="card" id="enemy-3"></div>
+            <div class="col-xss-12" id="lose-button">
+            <button type="button" id="lose" class="btn btn-danger  reset" style="width: 33%; font-size: x-large;">You Lose! <br> Play again? </button>
             </div>
-            <div class="col-3">
-                <div class="card" id="enemy-3"></div>
-            </div>
-        </div>
+        <h4 id="defender-zone-text">Defenders</h4>
+        <div class="jumbotron enemies">
+            <div class = "row enemies" id="defenders"></div>
         </div>
     </div>
     </div>
+
+
 
     <script></script>
 </body>

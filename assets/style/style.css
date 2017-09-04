@@ -1,15 +1,31 @@
+
 img {
     height: 100px;
+    padding-top: 5px;
 
+}
+button {
+    margin-top: 20px;
 }
 .card {
     background: white;
     border: 2px solid black;
     font-size: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card-title {
     font-size: large;
 }
 .card-text {
-    font-class: large;
+    font-size: large;
 }
+
+.attacker .card{
+    border: 5px solid mediumseagreen;
+}
+
+.defender .card{
+    border: 5px solid indianred;
+}
+
