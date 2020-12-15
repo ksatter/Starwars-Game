@@ -4,8 +4,8 @@
 
 var game = {
         //available options
-        namesAvailable: ['Luke', 'Leia', 'Chewie', 'Han', 'Lando', 'Obi', 'Palpy', 'r2d2', 'c3p0', 'Vader', 'Yoda'],
-        characterImages: ['assets/images/luke.png','assets/images/leia.png', 'assets/images/chewie.png', 'assets/images/han.png', 'assets/images/lando.png', 'assets/images/obi.png', 'assets/images/palpatine.png', 'assets/images/r2.png', 'assets/images/c3p0.png', 'assets/images/vader.png', 'assets/images/yoda.png'],
+        namesAvailable: ["Armaldo", "Charizard", "Gengar", "Haunter", "Lapras", "Sand Shrew", "Snorlax"],
+        characterImages: ['assets/images/armaldo.png','assets/images/charizard.png', 'assets/images/gengar.png', 'assets/images/haunter.png', 'assets/images/lapras.png', 'assets/images/sand-shrew.png', 'assets/images/snorlax.png'],
         healthPoints: [],
         hitPoints: [],
         characterNamesActive: [],
@@ -34,7 +34,7 @@ var game = {
         //create 4 characters
         createCharacters: function(){
             for (var i = 0; i< 4; ) {
-                var random = Math.floor(Math.random() * 11);
+                var random = Math.floor(Math.random() * this.namesAvailable.length);
                 var newCharacter = this.namesAvailable[random];
                 if (this.characterNamesActive.indexOf(newCharacter) < 0) {
                    this.characterNamesActive.push(newCharacter);
